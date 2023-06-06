@@ -4,13 +4,13 @@ const Navbar = () => {
     <nav className="border-b-2">
       <div className="flex flex-col lg:flex-row justify-between items-center py-4 container mx-auto">
       <div>
-        <img  src={Logo} alt="Logo" />
+        <img  src={Logo} alt="Logo" className="cursor-pointer"/>
       </div>
       <div>
         <ul className="flex flex-col lg:flex-row lg:space-x-10 my-4 lg:my-0">
-          <li className="font-medium text-xl text-[#1F8E3D]">Product<sup className="text-lg">&#8964;</sup></li>
-          <li className="font-medium text-xl text-[#181F1B]">About Us</li>
-          <li className="font-medium text-xl text-[#181F1B]">Contacts</li>
+          <li className="font-medium text-xl text-[#1F8E3D] cursor-pointer">Product<sup className="text-lg">&#8964;</sup></li>
+          <li className="font-medium text-xl text-[#181F1B] cursor-pointer">About Us</li>
+          <li className="font-medium text-xl text-[#181F1B] cursor-pointer">Contacts</li>
         </ul>
       </div>
       <div className="space-x-4">

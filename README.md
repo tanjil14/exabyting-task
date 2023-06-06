@@ -1,5 +1,5 @@
 # exabyting-task
-
+[Live Link](https://exabyting.netlify.app/)
 ## How to create:
  I used the Vite CLI (Command Line Interface) tool. First, I made sure to have Node.js installed on my machine. Then, I installed Vite globally by running the command npm install -g create-vite.
 
