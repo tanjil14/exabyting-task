@@ -6,3 +6,8 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.custom-shadow {
+  box-shadow: 10px 10px 17px rgba(193, 208, 195, 0.26),
+    -9px -9px 16px rgba(238, 238, 238, 0.6);
+}
